@@ -71,14 +71,20 @@
                     <li data-target="#carousel" data-slide-to="4" class=""></li>
                   </ol>
                   <div class="carousel-inner">
-                    <div class="item">
+                    <div class="item active">
                       <img src="images/phone.png" alt="">
                     </div>
-                    <div class="item active left">
+                    <div class="item">
                       <img src="images/phone2.png" alt="">
                     </div>
-                    <div class="item next left">
+                    <div class="item">
                       <img src="images/phone3.png" alt="">
+                    </div>
+                    <div class="item">
+                      <img src="images/phone4.png" alt="">
+                    </div>
+                    <div class="item">
+                      <img src="images/phone5.png" alt="">
                     </div>
 
                   </div> <!-- end .carousel-inner -->
@@ -432,6 +438,13 @@
 
     <!-- Bootstrap 3.2.0 js -->
     <script src="js/bootstrap.min.js"></script>
+
+    <!-- changes the timing for the carousel..the photo slide timing -->
+    <script>
+      $('.carousel').carousel({
+       interval: 2000
+      });
+     </script>
 
     <!-- Owl Carousel plugin -->
     <script src="js/owl.carousel.min.js"></script>
