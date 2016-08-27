@@ -53,7 +53,7 @@
                 <div class="content">
                   <h1><strong></strong> BOOK-RACK</h1>
                   <h2>Buy and sell your textbooks!</h2>
-                  <p>Designed for the students of St. Mary's College of California</p>
+                  <p>Designed for the students to save money on textbooks.</p>
                   <div class="button" id="download-app1">
                     <a href="https://itunes.apple.com/us/app/book-rack/id1124571430?ls=1&mt=8" class="btn btn-default btn-lg custom-btn"><i class="fa fa-cloud-download"></i>Download BOOK-RACK</a>
                   </div> <!-- end .button -->
@@ -62,7 +62,7 @@
 
               <div class="col-sm-5 col-md-5">
                 <div class="photo-slide">
-                 <div id="carousel" class="carousel slide" data-ride="carousel">
+                 <div id="carousel1" class="carousel slide" data-ride="carousel">
                   <ol class="carousel-indicators">
                     <li data-target="#carousel" data-slide-to="0" class="active"></li>
                     <li data-target="#carousel" data-slide-to="1" class=""></li>
@@ -142,7 +142,7 @@
 
           <div class="header">
             <h1>How it Works</h1>
-            <p>Buy and Sell your used books with the Saint Marys Community. </p>
+            <p>Buy and Sell your used books within the college community. </p>
             <div class="underline">
               <i class="fa fa-briefcase"></i>
             </div>
@@ -172,7 +172,7 @@
 
             <div class="col-lg-4">
               <h2 class="text-center"> Painless! </h2>
-                <p class="text-center">Designed for the students of SMC</p>
+                <p class="text-center">Designed for the students</p>
 
               <div class="featured-item-img">
                 <img src="images/app8.png" alt="">
@@ -204,7 +204,7 @@
               <div class="col-sm-7 col-md-6">
                 <div class="content">
                   <h1>Buy used textbooks</h1>
-                  <h4>Purchase textbooks from your fellow SMC students</h4>
+                  <h4>Purchase textbooks from your friends in the same university</h4>
                   <p>With BOOK-RACK you can easily find and buy textbooks that others have posted for sale. Simply search for the book that you need, then use the app to contact the student who posted it.
                   <br>
                   <br>
@@ -364,7 +364,7 @@
         <section id="quotes"></section>
         <section class=" dark-bg">
 
-          <div id="carousel" class="carousel slide" data-ride="carousel">
+          <div id="carousel2" class="carousel slide" data-ride="carousel">
 
            <ol class="carousel-indicators">
              <li data-target="#carousel" data-slide-to="0" class="active"></li>
@@ -375,7 +375,7 @@
              <li data-target="#carousel" data-slide-to="5" ></li>
            </ol>
            <div class="carousel-inner">
-             <img src = "images/header.jpg">
+             <img  src = "images/header.jpg">
 
              <div class="item active">
                <div class = "carousel-caption"
@@ -407,7 +407,7 @@
                  </div>
              </div>
              <div class="item">
-               <div class="imageforcarousel"> <img src="images/melissa.jpg" alt=""> </div>
+               <!--<div class="imageforcarousel"> <img src="images/melissa.jpg" alt=""> </div> -->
                <div class = "carousel-caption"
                <h3> "What an awesome idea for an app! Such an easy way to buy those specialized SMC textbooks that are difficult to find online.
                  Love that it was made by Gaels for fellow Gaels!" </h3>
@@ -437,6 +437,8 @@
              </div>
 
            </div> <!-- end .carousel-inner -->
+           <a class = "left carousel-control" data-slide = "prev" href = "#carousel2"><span class = "icon-prev"> </span></a>
+           <a class = "right carousel-control" data-slide = "next" href = "#carousel2"><span class = "icon-next"> </span></a>
           </div> <!-- end #carousel -->
 
 
@@ -453,7 +455,7 @@
         <h3>Thank you to Brian, Melissa, Jenn, Sarobar, and Kevin for their support and feedback!</h3>
         <br>
 
-        <p>&copy; 2016 <a href="mailto:smc.bookrack@gmail.com">BOOK-RACK (Email us: smc.bookrack@gmail.com)</a>, All Rights Reserved</p>
+        <p>&copy; 2016 <a href="mailto:smc.bookrack@gmail.com">BOOK-RACK (Email us)</a>, All Rights Reserved</p>
 
       </div> <!-- end .container -->
 
@@ -473,8 +475,12 @@
 
     <!-- changes the timing for the carousel..the photo slide timing -->
     <script>
-      $('.carousel').carousel({
+      $('#carousel1').carousel({
        interval: 2000
+      });
+      $('#carousel2').carousel({
+       interval: 3000
+       wrap: false
       });
      </script>
 
