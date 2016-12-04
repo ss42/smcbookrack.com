@@ -126,8 +126,8 @@
                 <li><a href="#team">Team</a></li>
                 <li><a href="#download">Download</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li><a href="terms.html">Terms and Conditions</a></li>
-                <li><a href="faq.html">F.A.Q</a></li>
+                <li><a href="" id="terms">Terms and Conditions</a></li>
+                <li><a href="" id="faq">F.A.Q</a></li>
               </ul>
             </div><!-- end .navbar-collapse -->
 
@@ -518,6 +518,13 @@
 
         jQuery("a[data-rel^='prettyPhoto']").prettyPhoto({social_tools:false});
       });
+
+      document.getElementById("terms").onclick = function () {
+    window.location.href = "terms.html";
+};
+document.getElementById("faq").onclick = function () {
+    window.location.href = "faq.html";
+};
     </script>
   </body>
 </html>
