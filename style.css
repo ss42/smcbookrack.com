@@ -10,7 +10,32 @@ Tags: html5, themplate, landing page, app landing page
 
 ========================================= */
 
+.android-btn{
 
+width: 240px;
+padding: 13px 17px 13px 0px;
+background-color: #000;
+border-color: #000;
+
+}
+.android-btn:hover{
+background-color: #272727;
+}
+
+.android-btn i{
+font-size: 55px;
+}
+
+.android-btn .btn-text{
+margin-top: 0px;
+}
+
+.android-btn strong{
+font-size: 25px;
+text-shadow: none;
+color: #fff;
+line-height: 24px;
+}
 
 /* =========================================
 /* 1 - Google Font
